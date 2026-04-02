@@ -13,7 +13,7 @@ const PricingCard = ({pricing}) => {
             <hr className='my-4' />
             <div className='bg-blue-950 p-5 rounded-xl'>
                 {
-                    features.map(featureData => <PricingFeature featureData={featureData}></PricingFeature>)
+                    features.map((featureData, index) => <PricingFeature featureData={featureData} key={index}></PricingFeature>)
                 }
             </div>
             <hr className='my-4'/>

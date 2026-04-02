@@ -44,7 +44,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className='flex justify-between md:mx-20'>
+        <div className='flex justify-between md:mx-20 mx-5 border-gray-200 shadow-md p-4'>
 
             <span className='flex gap-2' onClick={() => setOpen(!open)}>
                 {open ? <SquareX className='md:hidden'></SquareX> : <Menu className='md:hidden'></Menu>}

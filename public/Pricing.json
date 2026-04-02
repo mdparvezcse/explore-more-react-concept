@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "price": 20,
+    "duration": "Monthly",
+    "description": "Perfect for beginners to start their fitness journey.",
+    "features": [
+      "Gym equipment access",
+      "Locker facility",
+      "Basic workout plan"
+    ],
+    "popular": false
+  },
+  {
+    "id": 2,
+    "plan": "Standard",
+    "price": 40,
+    "duration": "Monthly",
+    "description": "Great for regular users who want guided training.",
+    "features": [
+      "Group classes",
+      "Personal trainer",
+      "Diet guidance"
+    ],
+    "popular": true
+  },
+  {
+    "id": 3,
+    "plan": "Premium",
+    "price": 70,
+    "duration": "Monthly",
+    "description": "Best for advanced users needing full support.",
+    "features": [
+      "Unlimited training",
+      "Custom diet plan",
+      "24/7 access"
+    ],
+    "popular": false
+  }
+]

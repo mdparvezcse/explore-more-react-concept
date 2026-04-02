@@ -4,7 +4,7 @@ import React from 'react';
 const PricingFeature = ({ featureData }) => {
     console.log(featureData)
     return (
-        <p className='flex gap-2'><CircleCheckBig></CircleCheckBig>{featureData}</p>
+        <p className='flex gap-2 text-gray-400'><CircleCheckBig className='text-green-500'></CircleCheckBig>{featureData}</p>
 
     );
 };

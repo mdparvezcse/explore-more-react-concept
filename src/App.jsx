@@ -2,8 +2,8 @@
 import { Suspense } from 'react';
 import './App.css'
 import Navbar from './component/Navbar/Navbar'
-import { Menu } from 'lucide-react';
 import PricingOption from './component/PricingOption/PricingOption';
+import ResultChart from './component/ResultChart/ResultChart';
 const pricingPromise = fetch('Pricing.json').then(res=> res.json());
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <Suspense fallback={<span className="loading loading-dots loading-lg"></span>}>
         <PricingOption pricingPromise={pricingPromise}></PricingOption>
       </Suspense>
+
+      <ResultChart></ResultChart>
     </>
   )
 }
